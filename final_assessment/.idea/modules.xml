@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consume-shipment-service/consume-shipment-service.iml" filepath="$PROJECT_DIR$/consume-shipment-service/consume-shipment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka-service.iml" filepath="$PROJECT_DIR$/eureka_server/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/final_assessment.iml" filepath="$PROJECT_DIR$/.idea/final_assessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usps-shipment-service/usps-shipment-service.iml" filepath="$PROJECT_DIR$/usps-shipment-service/usps-shipment-service.iml" />
+    </modules>
+  </component>
+</project>
