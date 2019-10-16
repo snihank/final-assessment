@@ -11,7 +11,7 @@
 	<groupId>com.trilogyed</groupId>
 	<artifactId>consume-shipment-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>consume-shipment-service</name>
+	<name>consumer-shipment-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

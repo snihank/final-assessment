@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5b6046e-0076-4ea2-99fe-2a78f25b5255" name="Default Changelist" comment="" />
+    <list default="true" id="f5b6046e-0076-4ea2-99fe-2a78f25b5255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consume-shipment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consume-shipment-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consume-shipment-service/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/feign/ConsumerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/feign/ConsumerClient.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SHyQ1pPG0u5e3n2QmYejWVYbhv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/consume-shipment-service/src/test" />
@@ -149,5 +161,16 @@
       <updated>1571234795166</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
