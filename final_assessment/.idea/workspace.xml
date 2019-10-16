@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b6046e-0076-4ea2-99fe-2a78f25b5255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consume-shipment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consume-shipment-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consume-shipment-service/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consume-shipment-service/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/feign/ConsumerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/feign/ConsumerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/model/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/usps-shipment-service/src/main/java/com/trilogyed/uspsshipmentservice/model/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usps-shipment-service/src/test/java/com/trilogyed/uspsshipmentservice/service/ServiceLayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usps-shipment-service/src/test/java/com/trilogyed/uspsshipmentservice/service/ServiceLayerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,42 +64,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UspsShipmentServiceApplication">
-    <configuration name="ConsumeShipmentServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trilogyed.consumeshipmentservice.ConsumeShipmentServiceApplication" />
+  <component name="RunManager" selected="JUnit.ServiceLayerTest.getConsumer">
+    <configuration name="ConsumerDaoTest.addGetDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consume-shipment-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trilogyed.consumeshipmentservice.*" />
+          <option name="PATTERN" value="com.trilogyed.consumeshipmentservice.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.trilogyed.consumeshipmentservice.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.consumeshipmentservice.dao.ConsumerDaoTest" />
+      <option name="METHOD_NAME" value="addGetDelete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cognizant.eureka_server.EurekaServerApplication" />
-      <module name="eureka-service" />
+    <configuration name="ServiceLayerTest.addLevelUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consume-shipment-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cognizant.eureka_server.*" />
+          <option name="PATTERN" value="com.trilogyed.consumeshipmentservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.trilogyed.consumeshipmentservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.consumeshipmentservice.service.ServiceLayerTest" />
+      <option name="METHOD_NAME" value="addLevelUp" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UspsShipmentServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.UspsShipmentServiceApplication" />
+    <configuration name="ServiceLayerTest.getConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="usps-shipment-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.*" />
+          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.trilogyed.uspsshipmentservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.service.ServiceLayerTest" />
+      <option name="METHOD_NAME" value="getConsumer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,16 +129,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceLayerTest.setUpConsumerClientMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="usps-shipment-service" />
+    <configuration name="ServiceLayerTest.setUpConsumerClientMock (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consume-shipment-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.service.*" />
+          <option name="PATTERN" value="com.trilogyed.consumeshipmentservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.trilogyed.uspsshipmentservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.service.ServiceLayerTest" />
+      <option name="PACKAGE_NAME" value="com.trilogyed.consumeshipmentservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.consumeshipmentservice.service.ServiceLayerTest" />
       <option name="METHOD_NAME" value="setUpConsumerClientMock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UspsShipmentServiceApplication" />
-        <item itemvalue="Application.ConsumeShipmentServiceApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="JUnit.ServiceLayerTest.getConsumer" />
         <item itemvalue="JUnit.ServiceLayerTest.saveFindConsumer" />
-        <item itemvalue="JUnit.ServiceLayerTest.setUpConsumerClientMock" />
+        <item itemvalue="JUnit.ConsumerDaoTest.addGetDelete" />
+        <item itemvalue="JUnit.ServiceLayerTest.addLevelUp" />
+        <item itemvalue="JUnit.ServiceLayerTest.setUpConsumerClientMock (1)" />
       </list>
     </recent_temporary>
   </component>

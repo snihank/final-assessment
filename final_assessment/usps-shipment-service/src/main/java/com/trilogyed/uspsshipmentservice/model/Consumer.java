@@ -28,7 +28,7 @@ public class Consumer {
         if (o == null || getClass() != o.getClass()) return false;
         Consumer consumer = (Consumer) o;
         return trackingId == consumer.trackingId &&
-                name.equals(consumer.name);
+                Objects.equals(name, consumer.name);
     }
 
     @Override
